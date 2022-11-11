@@ -1,0 +1,137 @@
+
+html, body {
+    height: 100%;
+}
+body {
+background-color: rgb(141, 184, 152, 0); 
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+/* header  */
+.header {
+    overflow: hidden;
+    background-color: rgba(55, 68, 83, 0.6);
+    padding: 20px 0px;
+  }
+  
+/* for each head label */
+  .header a {
+    float: left;
+    color: rgb(255, 210, 10);
+    text-align:center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 25px;
+    border-radius: 10px;
+  }
+  
+
+
+/* for when mouse is hover above the labels */
+  .header a:hover {
+    background-color: rgba(7, 7, 7, 0.2);
+    color: rgb(237, 237, 7);
+  }
+  
+ /* colors for the buttons when active */
+  .header a.active {
+    background-color: rgba(206, 183, 183, 0.5);
+    color: rgb(223, 238, 237);
+  }
+  
+
+.header1{
+    overflow: hidden;
+    background-color: rgba(186, 199, 206, 0);
+    padding: 20px 0px;
+}
+ 
+ .header1 a {
+    float: left;
+    color: rgb(160, 73, 73);
+    text-align:center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 25px;
+    border-radius: 10px;
+  }
+
+
+ 
+/* when mouse is hovering over */
+  .header1 a:hover {
+    background-color: rgba(19, 19, 19, 0.2);
+    color: black;
+  }
+  
+
+
+  .header1 a.active {
+    background-color: rgba(5, 5, 5, 0.5);
+    color: rgb(250, 249, 249);
+  }
+  
+
+  .header1Buttons {
+    float:center;
+    align-items:center;
+    font-family:"verdana";
+}
+  
+  
+
+
+/* for the main title and  thankyou message */
+.main-title {
+    color:rgb(226, 187, 170);
+    text-shadow: 0 8px 0 rgba(14, 13, 13, 0.5);
+    font-weight: 20;
+    text-align: center;
+    margin-top: 20rem;
+    font-size: 5rem;
+    font-family:"verdana";
+
+}
+
+
+
+
+
+
+/* for the image bacground */
+  canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#boardGame{
+    margin-top: rem;
+}
+
+
+.button1 {
+    background-color: #be7cc8;
+    border: none;
+    color: rgb(16, 15, 15);
+    font-family: "verdana";
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
